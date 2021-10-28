@@ -1,0 +1,48 @@
+@import url("common.module.css");
+
+.filterDevices_add{
+
+}
+
+.filterDevices_add label{
+    height: 24px;
+    color: #8C8C8C;
+}
+
+.filterDevices_add input{
+    position: absolute;
+    left: 0;
+    top:45px;
+    width: 210px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    padding-left: 12px;
+    color: #353535;
+}
+
+.filterDevices_add button{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 90px;
+    height: 40px;
+
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #353535;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.filterDevices_add button:hover {
+    background: rgba(53, 53, 53, 0.8);
+}

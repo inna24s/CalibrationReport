@@ -1,4 +1,3 @@
-import React from 'react';
 import Report from "./Report";
 import {connect} from "react-redux";
 

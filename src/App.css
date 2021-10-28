@@ -4,15 +4,7 @@
     height: 1282px;
     background: #FFFFFF;
 }
-.searchDevice{
-    position: absolute;
-    width: 320px;
-    height: 90px;
-    left: 50px;
-    top: 30px;
-}
-
-.deviceInformation{
+.deviceInfo{
     position: absolute;
     width: 550px;
     height: 330px;
@@ -42,4 +34,13 @@
     height: 660px;
     left: 50px;
     top: 516px;
+}
+
+.filterDevices{
+    position: absolute;
+    width: 320px;
+    height: 90px;
+    left: 50px;
+    top: 30px;
+    margin-bottom: 20px;
 }

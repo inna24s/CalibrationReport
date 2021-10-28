@@ -1,0 +1,19 @@
+@import url("common.module.css");
+
+.scale{
+    position: absolute;
+    width: 39.74px;
+    height: 40px;
+    left: 0;
+    top: 5px;
+}
+
+.text{
+    position: absolute;
+    width: 225px;
+    height: 80px;
+    left: 60px;
+    top: 0;
+    composes: title from "common.module.css";
+    color: #353535;
+}

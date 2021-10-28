@@ -1,21 +1,17 @@
-import s from "./FilterDevices.module.css"
+import s from "../css/FilterDevices.module.css"
 import React from "react";
 
 const FilterDevices = (props) => {
+    let onChange = (e) => {
+        props.updateInputValue(e.target.value);
+    }
     return (
-        <div className={s.div4}>
-				<span className={s.subheadingMobile}>
-					Enter inventory number, guid or bims id
-				</span>
-            <div className={s.div3}>
-
-                <input className={s.div1} value="A-001234"/>
-                <div>
-                    <button className={s.div2}>
-                        <span className={s.body2mobile}>Search</span>
-                    </button>
-                </div>
-            </div>
+        <div className={s.filterDevices_add}>
+            <label className={s.subheadingMobile} htmlFor="inputDevice">Enter inventory number, guid or bims id </label>
+                <input id="inputDevice"
+                       className={s.inputText} type="search"
+                       aria-label="Search through site content" required value={props.inputVal} onChange={onChange}/>
+            <button className={s.body2mobile}>Search</button>
         </div>
     );
 }

@@ -1,0 +1,27 @@
+@import url("common.module.css");
+.deviceInfo_add{
+    composes: bg from "common.module.css";
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+.deviceInfo_add ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 18.33px;
+    width: 513.33px;
+    height: 290px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:  #8C8C8C;
+}
+ul .black{
+    color:black;
+}
+
+ul .blue{
+    color: #4990e2;
+}

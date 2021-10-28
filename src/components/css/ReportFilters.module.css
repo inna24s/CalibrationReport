@@ -1,0 +1,60 @@
+@import url("common.module.css");
+.reportFilters_add{}
+
+.reportFilters_add select{
+    position: absolute;
+    width : 220px;
+    height: 30px;
+    left: 0;
+    padding-left: 12px;
+    appearance: none;
+    background: url(../ReportFilters/vector.jpg) no-repeat 200px  #FFFFFF;
+    background-size: 10px 6.3px;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+}
+
+.reportFilters_add select option{
+    top: calc(50% - 30px/2);
+    color: #353535;
+}
+
+.radioInputs{
+    position: absolute;
+    left: 0;
+    top: 21.83%;
+}
+
+.radioInputs input{
+    margin-left: 0;
+    margin-bottom: 12px;
+}
+
+.important:hover{
+    border-radius: 3px;
+    background: rgba(73, 144, 226, 0.8);;
+}
+
+.important{
+    position: absolute;
+    left: 0;
+    top: 180px;
+    width: 180px;
+    height: 40px;
+
+    background: #4990E2;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    composes: body2mobile from "common.module.css";
+    color: white;
+    letter-spacing: 0.16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}

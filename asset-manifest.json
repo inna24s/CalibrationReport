@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CalibrationReport/static/css/main.1b6dbd11.chunk.css",
+    "main.js": "/CalibrationReport/static/js/main.1aad5a15.chunk.js",
+    "main.js.map": "/CalibrationReport/static/js/main.1aad5a15.chunk.js.map",
+    "runtime-main.js": "/CalibrationReport/static/js/runtime-main.6cacc230.js",
+    "runtime-main.js.map": "/CalibrationReport/static/js/runtime-main.6cacc230.js.map",
+    "static/js/2.d140c549.chunk.js": "/CalibrationReport/static/js/2.d140c549.chunk.js",
+    "static/js/2.d140c549.chunk.js.map": "/CalibrationReport/static/js/2.d140c549.chunk.js.map",
+    "static/js/3.fc46bd55.chunk.js": "/CalibrationReport/static/js/3.fc46bd55.chunk.js",
+    "static/js/3.fc46bd55.chunk.js.map": "/CalibrationReport/static/js/3.fc46bd55.chunk.js.map",
+    "index.html": "/CalibrationReport/index.html",
+    "static/css/main.1b6dbd11.chunk.css.map": "/CalibrationReport/static/css/main.1b6dbd11.chunk.css.map",
+    "static/js/2.d140c549.chunk.js.LICENSE.txt": "/CalibrationReport/static/js/2.d140c549.chunk.js.LICENSE.txt",
+    "static/media/Report.module.css": "/CalibrationReport/static/media/TTNorms-Regular.9a14e0e8.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cacc230.js",
+    "static/js/2.d140c549.chunk.js",
+    "static/css/main.1b6dbd11.chunk.css",
+    "static/js/main.1aad5a15.chunk.js"
+  ]
+}

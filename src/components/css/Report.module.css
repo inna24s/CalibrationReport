@@ -1,6 +1,7 @@
 @import url("common.module.css");
 
 .report_add {
+    composes: bg from "common.module.css";
     border: 1px dashed #939DA6;
     box-sizing: border-box;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);

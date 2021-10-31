@@ -1,6 +1,6 @@
 const UPDATE_INPUT_VALUE = "UPDATE_INPUT_VALUE";
 let initialState = {
-    inputVal:"A-00123"
+    inputVal:"A-00124"
 };
 const filterDevicesReducer = (state = initialState, action) =>{
     switch (action.type) {

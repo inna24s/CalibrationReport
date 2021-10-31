@@ -1,6 +1,5 @@
 @import url("common.module.css");
 .deviceInfo_add{
-    composes: bg from "common.module.css";
     background: #F7F7F7;
     border-radius: 5px;
 }

@@ -1,4 +1,3 @@
-
 import {connect} from "react-redux";
 import FilterDevices from "./FilterDevices";
 import {updateInputValue} from "../../Redux/filterDevices-reducer";
